@@ -1,4 +1,4 @@
-/* ================== task 3 =====================*/
+/* ================== colors =====================*/
 :root {
     --color-primary: #d73953;
     --color-black : #090909;
@@ -7,28 +7,26 @@
     --color-dark-grey: #353535;
     --text-color: var(--color-black);
 
-/* ================== task 4 =====================*/
+/* ================== font family =====================*/
     --font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif;/* Update root with custom font family */
     --font-family-title: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/* ============= task 1 ================ */
 html {
     scroll-behavior: smooth;
 }
 
-/* ============= task 2 ================ */
 body {
-    background-color: var(--text-color); /* reset color using variables */
-    font-family: var(--font-family-base);/* Update from task4 */
+    background-color: var(--text-color); 
+    font-family: var(--font-family-base);
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: var(--font-family-title);/* task4 */
+    font-family: var(--font-family-title);
 }
 
 a {
-    background-color: var(--text-color);/* reset color using variables */
+    background-color: var(--text-color);
 }
 
 .visually-hidden {
@@ -36,10 +34,10 @@ a {
 }
 
 .card-category {
-    background-color: var(--color-primary);/* reset color using variables */
+    background-color: var(--color-primary);
 }
 
 .section-tagline {
-    background-color: var(--color-primary);/* reset color using variables */
+    background-color: var(--color-primary);
 }
 
