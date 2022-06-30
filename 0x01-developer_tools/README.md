@@ -1,5 +1,5 @@
 # 0x01. Developer tools
-[Developer-Tools](https://github.com/kwamboka1/alx-frontend/blob/main/0x01-developer_tools/dev-tools.jpeg)
+![Developer-Tools](https://github.com/kwamboka1/alx-frontend/blob/main/0x01-developer_tools/dev-tools.jpeg)
 
 # Resources
 **Read or watch:**
