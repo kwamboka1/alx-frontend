@@ -25,10 +25,10 @@ a {
 }
 
 .card-category {
-    background-color: var(--color-primary);
+    color: var(--color-primary);
 }
 
 .section-tagline {
-    background-color: var(--color-primary); 
+    color: var(--color-primary); 
 }
 
