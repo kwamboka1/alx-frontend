@@ -1,30 +1,4 @@
-/* ============= task 1 ================ */
-html {
-    scroll-behavior: smooth;
-}
-
-/* ============= task 2 ================ */
-body {
-    background-color: var(--text-color);/* reset color using variables */
-}
-
-a {
-  background-color: var(--text-color);/* reset color using variables */
-}
-
-.visually-hidden {
-    display: none;
-}
-
-.card-category {
-    background-color: var(--color-primary);/* reset color using variables */
-}
-
-.section-tagline {
-    background-color: var(--color-primary); /* reset color using variables */
-}
-
-/* =============== task 3 ================= */
+/* =============== colors ================= */
 
 :root {
     --color-primary: #d73953;
@@ -34,3 +8,27 @@ a {
     --color-dark-grey: #353535;
     --text-color: var(--color-black);
 }
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--text-color);
+}
+
+a {
+  background-color: var(--text-color);
+}
+
+.visually-hidden {
+    display: none;
+}
+
+.card-category {
+    background-color: var(--color-primary);
+}
+
+.section-tagline {
+    background-color: var(--color-primary); 
+}
+
