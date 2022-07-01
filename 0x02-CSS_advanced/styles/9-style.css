@@ -19,8 +19,8 @@
     --font-size-xx-large: 4.8rem;
 
 /* ================ variables for font-weight ======================= */
-    --font-weight-regular: 400px;
-    --font-weight-bold: 700px;
+    --font-weight-regular: 400;
+    --font-weight-bold: 700;
 
 /* ================== Variables for line heights ===================*/
     --line-height-small:1.2;
