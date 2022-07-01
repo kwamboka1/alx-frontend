@@ -8,8 +8,8 @@
     --text-color: var(--color-black);
 
 /* ================== variables for font family =====================*/
-    --font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    --font-family-title: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-family-base: "Open Sans" "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-family-title: "Raleway" "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 /* ============== variables for fonts sizes =================*/
     --font-size-small: 1.2rem;
