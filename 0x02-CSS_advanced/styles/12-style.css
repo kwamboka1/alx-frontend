@@ -6,7 +6,7 @@
     --color-light-grey: #f3f3f3;
     --color-dark-grey: #353535;
     --text-color: var(--color-black);
-    --section-title-color:var(--color-black);
+    --section-title-color: var(--color-black);
 
 /* ================== variables for font family =====================*/
     --font-family-base: "Open Sans" "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -35,7 +35,7 @@
     --section-tagline-transform:uppercase;
 
  /* ================ Variables for margins ================== */   
-    --section-title-margin:0px;
+    --section-title-margin: 0;
  
 
 }
