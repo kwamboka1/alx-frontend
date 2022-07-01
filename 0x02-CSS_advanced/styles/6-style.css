@@ -8,7 +8,7 @@
     --text-color: var(--color-black);
 
 /* ================== variables for font family =====================*/
-    --font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif;/* Update root with custom font family */
+    --font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif;
     --font-family-title: "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 /* ============== variables for fonts sizes =================*/
