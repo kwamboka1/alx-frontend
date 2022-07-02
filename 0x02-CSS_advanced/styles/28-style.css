@@ -465,7 +465,7 @@ h1, h2, h3, h4, h5, h6 {
 .header-logo a {
   display: var(--header-logo-link-display);
   position: var(--header-logo-link-position);
-  vertical-align: var(--header-logo-link-top);
+  z-index: var(--header-logo-link-top);
   margin: var(--header-logo-link-left);
 }
 /* =========== anchor links ===================== */
