@@ -462,7 +462,7 @@ h1, h2, h3, h4, h5, h6 {
   position: var(--header-logo-link-position);
 }
 
-.header-logo a {
+.header-logo link {
   display: var(--header-logo-link-display);
   position: var(--header-logo-link-position);
   top: var(--header-logo-link-top);
