@@ -463,6 +463,22 @@ a:active {
     background-color: var(--color-light-grey);
 }
 
+/*============== Button ===========*/
+.button {
+  display: var(--button-display);
+  padding: var(--button-padding);
+  border: var(--button-border);
+  font-size: var(--button-font-size);
+  color: var(--button-color);
+  text-decoration: var(--button-text-decoration);
+}
+
+.button:hover {
+    color: var(--button-hover-color);
+    text-decoration: var(--button-hover-text-decoration);
+    background-color: var(--button-hover-background);
+}
+
 .visually-hidden {
     display: none;
 }
@@ -620,12 +636,3 @@ ul.row {
     text-decoration: none;
 }
 
-.button {
-  display: var(--button-display);
-  padding: var(--button-padding);
-  border-style: var(--button-border);
-  font-size: var(--button-font-size);
-  color: var(--button-text-decoration);
-  background: var(--button-hover-background);
-  
-}
