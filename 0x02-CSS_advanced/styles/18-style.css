@@ -510,7 +510,7 @@ a:active {
 .nav{
   margin: 0;
   padding: 0;
-  font-style: none;
+  list-style: none;
   text-align: center;
 }
 
