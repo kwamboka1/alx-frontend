@@ -389,7 +389,7 @@ template {
     --section-tagline-transform:uppercase;
 
  /* ================ Variables for margins ================== */   
-    --section-title-margin:0;
+    --section-title-margin:0px;
     --section-tagline-margin:0;
 
 /* ================= variables for padding ================== */
@@ -533,7 +533,7 @@ a:active {
   color: var(--nav-item-link-hover);
 }
 
-ul.row {
+ul,.row {
   margin: 0;
   padding: 0;
   list-style: none;
