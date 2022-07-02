@@ -6,7 +6,7 @@
     --color-light-grey: #f3f3f3;
     --color-dark-grey: #353535;
     --text-color: var(--color-black);
-    --section-title-color:var(--color-black);
+    --section-title-color: var(--color-black);
 
 /* ================== variables for font family =====================*/
     --font-family-base: "Open Sans" "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -35,7 +35,7 @@
     --section-tagline-transform:uppercase;
 
  /* ================ Variables for margins ================== */   
-    --section-title-margin:0px;
+    --section-title-margin: 0;
  
 
 }
@@ -54,7 +54,7 @@ body {
     line-height: var(--line-height-base);
 }
 
-section :is(h1, h2, h3, h4, h5, h6) {
+h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-family-title);
     font-weight: var(--font-weight-bold);
 }
@@ -72,11 +72,11 @@ a {
     background-color: var(--color-primary);
 }
 
-.section-header{
+.section-header {
     text-align: var(--section-header-align);
 }
 
-.section-title{
+.section-title {
     font-family: var(--font-family-title);
     font-size: var(--font-size-xx-large);
     font-weight: var(--font-weight-bold);
@@ -88,8 +88,7 @@ a {
     background-color: var(--color-primary);
     font-family: var(--font-family-title);
     text-transform: var(--section-tagline-transform);
-    font-weight: var(--font-weight-bold)
-
+    font-weight: var(--font-weight-bold);
 }
 
 
