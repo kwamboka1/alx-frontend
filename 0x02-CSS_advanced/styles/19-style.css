@@ -389,7 +389,7 @@ template {
     --section-tagline-transform:uppercase;
 
  /* ================ Variables for margins ================== */   
-    --section-title-margin:0px;
+    --section-title-margin:0;
     --section-tagline-margin:0;
 
 /* ================= variables for padding ================== */
