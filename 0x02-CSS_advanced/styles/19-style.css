@@ -389,8 +389,8 @@ template {
     --section-tagline-transform:uppercase;
 
  /* ================ Variables for margins ================== */   
-    --section-title-margin:0px;
-    --section-tagline-margin:0;
+    --section-title-margin: 0;
+    --section-tagline-margin: 0;
 
 /* ================= variables for padding ================== */
     --section-padding:5rem;
