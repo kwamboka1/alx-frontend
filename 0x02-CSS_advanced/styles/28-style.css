@@ -362,8 +362,8 @@ template {
     --section-title-color:var(--color-black);
 
 /* ================== variables for font family =====================*/
-    --font-family-base: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    --font-family-title: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-family-base: "Open Sans" "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-family-title: "Raleway" "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 /* ============== variables for fonts sizes =================*/
     --font-size-small: 1.2rem;
@@ -377,27 +377,27 @@ template {
     --font-weight-bold: 700;
 
 /* ================== Variables for line heights ===================*/
-    --line-height-small: 1.2;
-    --line-height-base: 1.5;
-    --line-height-big: 1.8; 
+    --line-height-small:1.2;
+    --line-height-base:1.5;
+    --line-height-big:1.8; 
 
 /* ================= Variables for alignment =================*/
-    --section-header-align: center;
-    --section-footer-align: center; 
+    --section-header-align:center;
+    --section-footer-align:center; 
 
 /* ================= Variables for transformations ==================*/    
-    --section-tagline-transform: uppercase;
+    --section-tagline-transform:uppercase;
 
  /* ================ Variables for margins ================== */   
     --section-title-margin: 0;
     --section-tagline-margin: 0;
 
 /* ================= variables for padding ================== */
-    --section-padding: 5rem 0;
-    --section-header-padding: 0 0 3rem;
-    --section-body-padding: 0 0 3rem;
-    --section-footer-padding: 3rem 0 0;
-    --footer-padding: 5rem 0 1rem;
+    --section-padding:5rem;
+    --section-header-padding:0 0 3rem;
+    --section-body-padding:0 0 3rem;
+    --section-footer-padding:3rem 0 0;
+    --footer-padding:5rem 0 1rem;
 
 /*=========== all menus custom properties =====================*/ 
     --nav-item-font-family: var(--font-family-title);
@@ -405,7 +405,7 @@ template {
     --nav-item-font-size: var(--font-size-medium);
     --nav-item-letter-spacing: 0.04rem;
     --nav-item-display: inline-block;
-    --nav-item-margin: 0 0 3rem 0;
+    --nav-item-margin: 0 0  3rem;
     --nav-item-link-hover: var(--color-primary);
 
 /* ====================== Button Styling ========================= */
@@ -420,12 +420,12 @@ template {
   --button-hover-background: var(--color-primary);
 
 /*============header===================*/
---header-padding: 4rem 0 0;
---heder-logo-position: relative;
---header-logo-link-display: inline-block;
---header-logo-link-position: absolute;
---header-logo-link-top: -1rem;
---header-logo-link-left: 0;
+  --header-padding: 4rem 0 0;
+  --heder-logo-position: relative;
+  --header-logo-link-display: inline-block;
+  --header-logo-link-position: absolute;
+  --header-logo-link-top: -1rem;
+  --header-logo-link-left: 0;
 
 }
 
@@ -447,7 +447,6 @@ body {
     line-height: var(--line-height-base);
 }
 
-
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-family-title);
     font-weight: var(--font-weight-bold);
@@ -468,6 +467,7 @@ h1, h2, h3, h4, h5, h6 {
   top: var(--header-logo-link-top);
   left: var(--header-logo-link-left);
 }
+
 /* =========== anchor links ===================== */
 
 a:link {
@@ -541,7 +541,7 @@ a:active {
     background-color: var(--color-primary);
     font-family: var(--font-family-title);
     text-transform: var(--section-tagline-transform);
-    font-weight: var(--font-weight-bold);
+    font-weight: var(--font-weight-bold)
     margin: var(--section-tagline-margin);
 
 }
