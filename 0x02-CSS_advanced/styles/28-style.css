@@ -377,27 +377,27 @@ template {
     --font-weight-bold: 700;
 
 /* ================== Variables for line heights ===================*/
-    --line-height-small:1.2;
-    --line-height-base:1.5;
-    --line-height-big:1.8; 
+    --line-height-small: 1.2;
+    --line-height-base: 1.5;
+    --line-height-big: 1.8; 
 
 /* ================= Variables for alignment =================*/
-    --section-header-align:center;
-    --section-footer-align:center; 
+    --section-header-align: center;
+    --section-footer-align: center; 
 
 /* ================= Variables for transformations ==================*/    
-    --section-tagline-transform:uppercase;
+    --section-tagline-transform: uppercase;
 
  /* ================ Variables for margins ================== */   
     --section-title-margin: 0;
     --section-tagline-margin: 0;
 
 /* ================= variables for padding ================== */
-    --section-padding:5rem;
-    --section-header-padding:0 0 3rem;
-    --section-body-padding:0 0 3rem;
-    --section-footer-padding:3rem 0 0;
-    --footer-padding:5rem 0 1rem;
+    --section-padding: 5rem 0;
+    --section-header-padding: 0 0 3rem;
+    --section-body-padding: 0 0 3rem;
+    --section-footer-padding: 3rem 0 0;
+    --footer-padding: 5rem 0 1rem;
 
 /*=========== all menus custom properties =====================*/ 
     --nav-item-font-family: var(--font-family-title);
@@ -405,7 +405,7 @@ template {
     --nav-item-font-size: var(--font-size-medium);
     --nav-item-letter-spacing: 0.04rem;
     --nav-item-display: inline-block;
-    --nav-item-margin: 0 0  3rem;
+    --nav-item-margin: 0 0 3rem 0;
     --nav-item-link-hover: var(--color-primary);
 
 /* ====================== Button Styling ========================= */
