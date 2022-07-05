@@ -393,7 +393,7 @@ template {
     --section-tagline-margin: 0;
 
 /* ================= variables for padding ================== */
-    --section-padding:5rem;
+    --section-padding:5rem 0;
     --section-header-padding:0 0 3rem;
     --section-body-padding:0 0 3rem;
     --section-footer-padding:3rem 0 0;
