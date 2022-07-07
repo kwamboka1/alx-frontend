@@ -421,7 +421,7 @@ template {
 
 /*============header===================*/
   --header-padding: 4rem 0 0;
-  --heder-logo-position: relative;
+  --header-logo-position: relative;
   --header-logo-link-display: inline-block;
   --header-logo-link-position: absolute;
   --header-logo-link-top: -1rem;
