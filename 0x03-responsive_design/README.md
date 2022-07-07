@@ -1,5 +1,5 @@
 # Responsive design
- `HTML` `CSS` Front-end` `Responsive design`
+ `HTML` `CSS` `Front-end` `Responsive design`
 
 ## Resources
 **Read or watch:**
